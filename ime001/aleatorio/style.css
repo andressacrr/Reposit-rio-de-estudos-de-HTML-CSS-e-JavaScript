@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+h3 {
+    color: red;
+    background-color: green;
+    width: 110px;
+}
+
+#x1 {
+    color: purple;
+    text-align: center;
+}
+
+#x2 {
+    color: yellowgreen;
+    text-align: right;
+}
+
+#x3 {
+    color: darkorange;
+    text-align: left;    
+}
+
+.humano {
+    font-style: unset;
+    text-align: center;
+}
+
+.animal {
+    font-style: oblique;
+    text-align: left;
+    color: black;
+    background-color: indianred;
+    width: 100px;
+}
+
+div.teste{
+    background-color: chartreuse;
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    margin-bottom: 5px;
+}
+
+div.teste > p{
+    background-color: deeppink;
+}
+
+p{
+    color: red;
+}
+
+div.header > p{
+    color: blueviolet;
+}
+
+h1.name{
+    color: aqua;
+    font-style: oblique;
+    text-align: right;
+}
