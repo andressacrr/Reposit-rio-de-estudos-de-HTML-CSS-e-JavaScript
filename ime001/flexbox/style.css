@@ -1,9 +1,34 @@
 @charset "UTF-8";
 
-main{
-    display: flex;
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-main div{
+section{
+    display: flex; /*colocar o texto do lado e nao abaixo*/
+}
+
+header h1{
+    text-align: center;
+}
+
+nav a{
+    background-color: aqua;
+    color: black;
+    margin-right: 10px;
+}
+
+#compre{
+    display: flex;
+    margin-left: auto;
     background-color: red;
+}
+
+img{
+    width: 120px;
+    height: 70px;
+    display: block;
+    margin: auto;
 }
