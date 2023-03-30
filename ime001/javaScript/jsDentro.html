@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript dentro</title>
+    <!-- COLOCANDO O JS AQUI MESMO JÁ -->
+</head>
+<body>
+    <!-- JS no body!! -->
+    <script>
+        console.log('ola mundo') // mais usado para printar
+        console.error('motrar erro')
+        console.info('mostrar info')
+        console.warn('mostrar aviso')
+        console.debug('hello world')
+    </script>
+    <script>
+        // const nao pode mudar o valor
+        const minhaVar = 'meu valor'
+        console.log ('Minha var: ' + minhaVar)
+
+        // let pode mudar o valor
+        let podeMudar = 'primero'
+        console.log ('Primeira vez: ' + podeMudar)
+        podeMudar = 'segunda'
+        console.log('Segunda vez: ' + podeMudar)
+    </script>
+    <script>
+        function nomes(){
+            console.log('Andressa e Gabriele')
+        }
+        nomes()
+
+
+        function gabriele(idade, sexo){
+            console.log ('Gabriele = idade: ' + idade + ' sexo: ' + sexo) 
+        }
+        gabriele(19, 'F')
+    </script>
+    
+    <script>
+        function minhaSoma(a, b){
+            console.log(`${a} + ${b} = ${a+b}`)
+        }
+        minhaSoma(2,3) // vai printar o valor
+        console.log (minhaSoma) // ele vai printar "o codigo"
+    </script>
+    <script>
+        const objeto = {
+            numero: 100,
+            chave: 'Lais'
+        }
+        console.log ('Tudo: ' , objeto)
+        console.log ('Chave: ' + objeto.chave) // concatenar
+        console.log ('Numero: ' + objeto.numero)
+    </script>
+
+    <script>
+        console.table([
+            {Nome: 'Andressa', Idade: 24},
+            {Nome: 'Zoe', Idade: 3},
+            {Nome: 'Arthur', Idade: 1},
+            {Nome: 'Romeu', Idade: 2}            
+        ])
+    </script>
+</body>
+</html>

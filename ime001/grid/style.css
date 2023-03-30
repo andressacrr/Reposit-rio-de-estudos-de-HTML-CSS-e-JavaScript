@@ -13,7 +13,7 @@ main{
 
 /* faz intercalar conforme vc pede dentro do parametro */
 .celulas:nth-child(2n){
-    background-color: blue;
+    background-color: green;
 }
 
 body{
